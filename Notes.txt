@@ -8,7 +8,8 @@ You might've heard that Node is a runtime environment for javascript, But.. what
 I'm simplify things a bit and go a little down on the actual facts for the sake of clarity because that's what matters here in this context. 
 So ig you must be familiar with Chrome. Chrome is a software application, and like any other software, it's built using code, lots of it – billions of lines of code organized into numerous directories or modules.
 One crucial component of Chrome's codebase is the V8 engine, which handles the main content and is written in C++. You can think of this code as containing everything required to create and execute files on a server.
-Now, in web development, JavaScript is the primary language of choice. However, since the V8 engine's code is in C++, the creators of Node.js took the V8 engine's code and wrapped it with a JavaScript (JS) layer. This JS layer allows Node.js to bridge the gap between JavaScript and the server-side code derived from Chrome's V8 engine. I hope this diagram helps you.
+Now, in web development, JavaScript is the primary language of choice. However, since the V8 engine's code is in C++, the creators of Node.js took the V8 engine's code and wrapped it with a JavaScript (JS) layer. 
+This JS layer allows Node.js to bridge the gap between JavaScript and the server-side code derived from Chrome's V8 engine. I hope this diagram helps you.
 So, when you run a .js file with Node.js in the terminal, it doesn't precisely 'compile' the code in the traditional sense. Instead, it interprets and executes the JavaScript code, providing an output very similar to a virtual server. 
 So this is why Node.js is called a runtime environment. It enables JavaScript, primarily used in web development, to work on servers, bridging the gap between JavaScript and server-side code, making server operations feel like a virtual server.
 
