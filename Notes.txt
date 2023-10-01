@@ -3,6 +3,7 @@ Hey, so yeah listen up !
 You know MERN stack right ? Were M is for MongoDB, E is for express, R is for React and N is for Node..
 Okay.. so.. MongoDB is used for data storage and React is a library for UI or frontend, but what about the other two ?
 
+What is Node ?
 You might've heard that Node is a runtime environment for javascript, But.. what does it mean..?
 I'm simplify things a bit and go a little down on the actual facts for the sake of clarity because that's what matters here in this context. 
 So ig you must be familiar with Chrome. Chrome is a software application, and like any other software, it's built using code, lots of it – billions of lines of code organized into numerous directories or modules.
@@ -11,8 +12,10 @@ Now, in web development, JavaScript is the primary language of choice. However, 
 So, when you run a .js file with Node.js in the terminal, it doesn't precisely 'compile' the code in the traditional sense. Instead, it interprets and executes the JavaScript code, providing an output very similar to a virtual server. 
 So this is why Node.js is called a runtime environment. It enables JavaScript, primarily used in web development, to work on servers, bridging the gap between JavaScript and server-side code, making server operations feel like a virtual server.
 
-Now what is NPM ?
-When it orginiated, NPM was Node Package Manager, it used to have all the packages related to node js and was used to ofcourse manage them. But now, NPM is much much more that a package manager for node, it is like a complete play store for all kinds of packages you might require in severla different development domains. So now that old full-form is redundant, but since the acronym - NPM became very famous, the owners decided to not change the acronym, but change the fullform. And what did they change it to ? Well, there's no answer to it. They changed it to whatever full-form is possible like "Note: Purchase Milk", "Non Productive Monday", "Not Particularly Meaningful" and even "Nahi Pata Mujhe" (Hindi phrase which means "I dont't know"). You can see it in the GIF I attached below for you.
-
+BONUS: Now what is NPM ?
+Originally, NPM stood for Node Package Manager, serving as a repository for Node.js-related packages and their management. However, over time, NPM evolved into much more than just a package manager for Node.js. It transformed into a comprehensive repository for packages across various development domains.
+As a result, the original full form of NPM became somewhat redundant. Despite this, the acronym 'NPM' remained unchanged due to its fame. However, the full form of NPM now varies humorously and creatively. Some examples include 'Note: Purchase Milk,' 'Non Productive Monday,' 'Not Particularly Meaningful,' and even 'Nahi Pata Mujhe' (a Hindi phrase meaning 'I don't know'). You can find more such reinterpretations in the GIF of the website I've attached below for you. To read more of them you can check out their git repository here: 
 
 And finally ! What is express ?
+So Express.js is a package that can be downloaded from npm, refer to the attached GIF. For a minute, think of your web application as a city with many attractions, such as user profiles, shopping carts, and blog posts. Express.js provides the organized roadways, traffic rules, and signs that allow users (represented by web requests) to smoothly move between these attractions. 
+Express simplifies the process of handling incoming requests, routing them to the appropriate destinations, and managing the flow of data.  While it's technically possible to build a web application without it, doing so would likely involve significantly more code, complexity, and effort. Express.js simplifies this process by providing a pre-built framework for managing routes, requests, and responses, making web development faster and more efficient.
