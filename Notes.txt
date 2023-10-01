@@ -1,0 +1,5 @@
+Hey, so yeah listen up !
+
+You know MERN stack right ? Here M is for MongoDB, E is for express, R is for React and N is for Node..
+Okay.. so.. MongoDB is used for data storage and React is a library for UI or frontend, but what about the other two ?
+You might've heard that Node is a runtume environment for javascript
