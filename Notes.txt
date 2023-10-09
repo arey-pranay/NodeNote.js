@@ -27,3 +27,6 @@ Express.js provides the organized roadways, traffic rules, and signs that allow 
 Express simplifies the process of handling incoming requests, routing them to the appropriate destinations, and managing the flow of data.  While it's technically possible to build a web application without it, doing so would likely involve significantly more code, complexity, and effort. 
 Express.js simplifies this process by providing a pre-built framework for managing routes, requests, and responses, making web development faster and more efficient.
 You can also use the HTTP functionality of Node for utilizing all capibilities of server, but we generally use expreses becuase it makes all those things very much easier, and you have to write a lot less and a lot simple code for that thing.
+Som node has all the power of the V8 engine to create a server, but to easily use its functionalities, we use Express.js with it.
+
+And And And MongoDB ?
