@@ -48,3 +48,5 @@ And for mongoose you can just say, npm I mongoose.
 
 Plus there is also a simpler way to setup your express app, and that uses express generator, you can use it first by globally installing it with: npm i express-generator -g.
 express appname --view=ejs.
+
+This will create an express app and you can use a language similar to HTML, called EJS. You can think of it as the html for Backend. All your rendering pages will be in the views folder. All your routes will be in the routes folder. All your assets like the images, styles, and even the scripts stays in the public folder. I might write another blog about it someday coz it's a big topic in itself tbh.
