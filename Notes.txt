@@ -50,3 +50,6 @@ Plus there is also a simpler way to setup your express app, and that uses expres
 express appname --view=ejs.
 
 This will create an express app and you can use a language similar to HTML, called EJS. You can think of it as the html for Backend. All your rendering pages will be in the views folder. All your routes will be in the routes folder. All your assets like the images, styles, and even the scripts stays in the public folder. I might write another blog about it someday coz it's a big topic in itself tbh.
+
+The code related to Databases is often asynchronous, if you don't know a lot about async code then you refer my blog on it, if you feel like. In short async code is the part of your like, a function, that depends on something outside your code. So whenever the compiler/interpreter encounters async code, it pushes the async part to the side stack of the function's scope and proceeds to the next line, and finishes the execution of all the synchronised code, i.e., the normal code. When all the sync code is finished, it returns to the side stack and bring the async code to the main stack and execute that.
+But you might not want this to always happen, and in case you want your async code to be executed the moment it's encountered, just put the word "await" in front of that code fragment, and put "async" in front of the function declaration.
