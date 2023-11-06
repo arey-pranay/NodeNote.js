@@ -30,3 +30,20 @@ You can also use the HTTP functionality of Node for utilizing all capibilities o
 Som node has all the power of the V8 engine to create a server, but to easily use its functionalities, we use Express.js with it.
 
 And And And MongoDB ?
+
+We'll MongoDB is a database. 
+Some important points:
+Code ----> MongoDB
+setup a database ----> database is created
+create a model ----> a collection is created
+create a schema ----> a document is created
+
+A database has all data of a company. It is the biggest or the outermost container of data storage. And the smallest one is a document. The collection of these documents is called, umm, a collection. Simple ??
+
+Okay, then what's Mongoose ?
+Mongoose is used to connect your backed, i.e., the node/express code to the database..
+
+You need to install MongoDB from the website (community edition -> community server)
+And for mongoose you can just say, npm I mongoose.
+
+Plus there is also a simpler way to setup your express app, and that uses express generator, you can use it first by globally installing it with npm i express-generator.
