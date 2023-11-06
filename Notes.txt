@@ -53,3 +53,6 @@ This will create an express app and you can use a language similar to HTML, call
 
 The code related to Databases is often asynchronous, if you don't know a lot about async code then you refer my blog on it, if you feel like. In short async code is the part of your like, a function, that depends on something outside your code. So whenever the compiler/interpreter encounters async code, it pushes the async part to the side stack of the function's scope and proceeds to the next line, and finishes the execution of all the synchronised code, i.e., the normal code. When all the sync code is finished, it returns to the side stack and bring the async code to the main stack and execute that.
 But you might not want this to always happen, and in case you want your async code to be executed the moment it's encountered, just put the word "await" in front of that code fragment, and put "async" in front of the function declaration.
+To temporarily save data, you use:
+Cookies on the Client Side
+and Sessions on the Server Side.
