@@ -46,4 +46,5 @@ Mongoose is used to connect your backed, i.e., the node/express code to the data
 You need to install MongoDB from the website (community edition -> community server)
 And for mongoose you can just say, npm I mongoose.
 
-Plus there is also a simpler way to setup your express app, and that uses express generator, you can use it first by globally installing it with npm i express-generator.
+Plus there is also a simpler way to setup your express app, and that uses express generator, you can use it first by globally installing it with: npm i express-generator -g.
+express appname --view=ejs.
