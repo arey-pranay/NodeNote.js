@@ -66,3 +66,8 @@ npm i cookie-parser
 flash messages are errors or little warnings that are sent by the server to the frontend mostly in case of mismatch of data.
 
 npm i connect-flash
+
+we can't use connect-flash without express-session
+
+whatever is written in app.use runs everytime in every route 
+flash messages is the only way to send the data or to use the data, of one route in some another route..
