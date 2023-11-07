@@ -71,3 +71,9 @@ we can't use connect-flash without express-session
 
 whatever is written in app.use runs everytime in every route 
 flash messages is the only way to send the data or to use the data, of one route in some another route..
+
+Now what about protected routes and all ?
+We use passport.js for that
+passport is used for the basic authentication-authorization
+now there are several strategies or login methods, for username-password method, you can use passport-local
+and then for encryption decryption etc you use passport-mongoose
