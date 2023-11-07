@@ -56,3 +56,9 @@ But you might not want this to always happen, and in case you want your async co
 To temporarily save data, you use:
 Cookies on the Client Side
 and Sessions on the Server Side.
+
+install session functionality using 
+npm i express-session
+
+install cookie functionality using
+npm i cookie-parser
