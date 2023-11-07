@@ -76,4 +76,4 @@ Now what about protected routes and all ?
 We use passport.js for that
 passport is used for the basic authentication-authorization
 now there are several strategies or login methods, for username-password method, you can use passport-local
-and then for encryption decryption etc you use passport-mongoose
+and then for encryption decryption etc you use passport-local-mongoose
