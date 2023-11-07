@@ -31,7 +31,7 @@ Som node has all the power of the V8 engine to create a server, but to easily us
 
 And And And MongoDB ?
 
-We'll MongoDB is a database. 
+Well MongoDB is a database. 
 Some important points:
 Code ----> MongoDB
 setup a database ----> database is created
@@ -62,3 +62,7 @@ npm i express-session
 
 install cookie functionality using
 npm i cookie-parser
+
+flash messages are errors or little warnings that are sent by the server to the frontend mostly in case of mismatch of data.
+
+npm i connect-flash
